@@ -138,6 +138,10 @@ sh ss.sh
 
 复制号信息之后，服务器连接可以关掉，它会一直运行。
 
+### 关闭防火墙配置
+```
+systemctl stop firewalld
+```
 
 
 ## 开始使用 VPN
